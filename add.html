@@ -14,9 +14,10 @@
 
   <div class="container">
     <div class="jumbotron">
-      <h1>Star Wars Express</h1>
-      <h3>The greatest resource in the galaxy for Star Wars statistics!</h3>
+      <h1>Survey Questions</h1>
       <hr>
+      <h3>About You</h3>
+
       <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-eye"></span> View Characters</button></a>
     </div>
     <div class="row">
@@ -31,9 +32,20 @@
             <form method="POST" role="form">
 
               <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Name (Required)</label>
                 <input type="text" class="form-control" id="name">
               </div>
+
+              <div class="form-group">
+                <label for="name">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="name">
+              </div>            
+              <select class="chosen-select" id="q1" style="display: none;"></select>
+              <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q1_chosen">
+              <h3>
+                  <h4>Generally speaking, you rely more on your experience than your imagination. </h4>
+              </h3>
+              </select>
 
               <div class="form-group">
                 <label for="role">Role</label>
